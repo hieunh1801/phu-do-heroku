@@ -1,0 +1,197 @@
+/* Media */
+
+@media only screen and (max-width: 600px) {
+    .imgDuAn {
+        width: 100%
+    }
+}
+
+
+/* xóa viền xung quanh nút */
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+
+/* Nav Bar */
+
+.navBarContainer {
+    background-color: #004393;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.brandContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: 000000;
+    height: 30px;
+}
+
+.brandIcon {
+    font-size: 30px;
+    margin: 0 20px;
+    color: #000000;
+}
+
+.menuIcon {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    size: 16px;
+    font-weight: 400;
+}
+
+.nav-item {
+    padding-left: 20px;
+    margin-bottom: -10px;
+}
+
+.nav-link:hover:focus:active {
+    color: ffffff;
+}
+
+.navBarCollapseContainer {
+    background-color: #004393
+}
+
+.caroselContainer {
+    min-height: 330px;
+    background-color: #b6b6b6;
+}
+
+.carousel-indicators {
+    /* background-color: red; */
+}
+
+.dotCustom {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+}
+
+.wrapper {
+    background-color: #fafafa;
+}
+
+
+/* Loại Hình Bất động sản */
+
+.tabContainer {
+    margin-bottom: 10px;
+    /* background-color: #ffffff; */
+    height: 300px;
+}
+
+.imgTab {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.tabTxt {
+    height: 56px;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.tabTxt:hover {
+    text-decoration: none;
+}
+
+
+/* Tất cả loại hình bất động sản */
+
+.allProject {
+    margin-top: 20px;
+}
+
+.danh_muc_container {
+    padding: 10px 20px;
+}
+
+.tin_tuc_container {
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.txt_danh_muc,
+.txt_tin_tuc {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.txt_danh_muc_detail,
+.txt_tin_tuc_detail {
+    height: 30px;
+}
+
+.container_du_an {
+    width: 100%;
+    margin: 0 5px 10px 0px;
+    padding: 15px;
+}
+
+.imgDuAn {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.du_an_left {
+    margin-right: 20px;
+}
+
+.tieu_de_du_an {
+    font-size: 36px;
+    color: #004393;
+    /* color: #C93535; */
+}
+
+.txt_tien {
+    color: #C93535;
+}
+
+.txt_dien_tích {
+    color: #3C89AA;
+}
+
+
+/* FOOTER */
+
+footer {
+    color: #FFFFFF
+}
+
+.footerColContainer {
+    padding: 20px;
+}
+
+.txtFooterRowTitle {
+    display: flex;
+    /* align-self: center; */
+    /* justify-content: center; */
+    font-weight: 400;
+    font-size: 18px;
+}
